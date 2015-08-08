@@ -11,7 +11,7 @@ Use the SharePoint REST/OData endpoints to perform create, read, update, and del
 This sample requires the following:
 
 
-- A SharePoint 2013 (or later) development environment that is configured for app isolation and OAuth. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx) and [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://msdn.microsoft.com/library/office/dn155905.aspx).) 
+- A SharePoint 2013 (or later) development environment that is configured for add-in isolation and OAuth. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx) and [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://msdn.microsoft.com/library/office/dn155905.aspx).) 
 
 
 - Visual Studio and the Office Developer Tools for Visual Studio installed on your developer computer 
@@ -29,7 +29,7 @@ The code that uses the REST APIs is located in the Default.aspx.cs file of the S
 The sample demonstrates the following:
 
 
-- How to read and write data to and from a parent web. This data conforms with the OData protocol to the REST endpoints where the list and list item entities are exposed. 
+- How to read and write data to and from a SharePoint host web. This data conforms with the OData protocol to the REST endpoints where the list and list item entities are exposed. 
 
 
 
@@ -45,7 +45,7 @@ The sample demonstrates the following:
 13. Open the .sln file.
 13. In **Solution Explorer**, highlight the SharePoint add-in project and replace the **Site URL** property with the URL of your SharePoint developer site.
 14. Press F5.
-15. After the app installs, the consent page opens. Click **Trust It**.
+15. After the add-in installs, the consent page opens. Click **Trust It**.
 16. Enter a string in the text box beside the **Add List** button and click the button. In a moment, the page refreshes and the new list is in the table.
 17. Click the ID of the list, and then click **Retrieve List Items**. There will initially be no items on the list. Some additional buttons will appear.
 18. Add a string to the text box beside the **Add Item** button and press the button. The new item will appear in the table in the row for the list.
@@ -65,7 +65,7 @@ The sample demonstrates the following:
 </tr>
 <tr valign="top">
 <td><span style="font-size:small">Visual Studio does not open the browser after you press the F5 key.</span></td>
-<td><span style="font-size:small">Set the app for SharePoint project as the startup project.</span></td>
+<td><span style="font-size:small">Set the SharePoint Add-in project as the startup project.</span></td>
 </tr>
 <tr valign="top">
 <td><span style="font-size:small">HTTP error 405 <strong>Method not allowed</strong>.</span></td>
