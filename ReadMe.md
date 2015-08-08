@@ -11,7 +11,7 @@ Use the SharePoint REST/OData endpoints to perform create, read, update, and del
 This sample requires the following:
 
 
-- A SharePoint 2013 development environment that is configured for app isolation and OAuth. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx) and [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://msdn.microsoft.com/library/office/dn155905.aspx).) 
+- A SharePoint 2013 (or later) development environment that is configured for app isolation and OAuth. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx) and [Use an Office 365 SharePoint site to authorize provider-hosted add-ins on an on-premises SharePoint site](https://msdn.microsoft.com/library/office/dn155905.aspx).) 
 
 
 - Visual Studio and the Office Developer Tools for Visual Studio installed on your developer computer 
