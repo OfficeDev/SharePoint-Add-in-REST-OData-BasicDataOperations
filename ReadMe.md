@@ -22,7 +22,7 @@ This sample requires the following:
 ## Description of the code ##
 The code that uses the REST APIs is located in the Default.aspx.cs file of the SharePoint-Add-in-REST-OData-BasicDataOperationsWeb project. The Default.aspx page of the add-in appears after you install and launch the add-in and looks similar to the following.
 
-![The add-in start page with a table listing all the list on the site by name and ID.](..\description\fig1.gif) 
+![The add-in start page with a table listing all the list on the site by name and ID.](/description/fig1.gif) 
 
 
 
