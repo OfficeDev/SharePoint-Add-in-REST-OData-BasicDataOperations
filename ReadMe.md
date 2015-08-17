@@ -80,7 +80,7 @@ The sample demonstrates the following:
 
 ## Questions and comments
 
-We'd love to get your feedback on this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/SharePoint_SP-hosted_Add-ins_Tutorials/issues) section of this repository.
+We'd love to get your feedback on this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/SharePoint-Add-in-REST-OData-BasicDataOperations/issues) section of this repository.
   
 <a name="resources"/>
 ## Additional resources
