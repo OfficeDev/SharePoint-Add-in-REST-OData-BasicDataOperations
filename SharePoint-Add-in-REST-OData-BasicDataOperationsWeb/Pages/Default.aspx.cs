@@ -299,7 +299,7 @@ namespace SharePoint_Add_in_REST_OData_BasicDataOperationsWeb
                 string listName = listNameNode.InnerXml;
 
                 //Execute a REST request to add an item to the list.
-                string itemPostBody = "{'__metadata':{'type':'" + entityTypeName + "'}, 'Title':'" + newItemName + "'}}";
+                string itemPostBody = "{'__metadata':{'type':'" + entityTypeName + "'}, 'Title':'" + newItemName + "'}";
                 Byte[] itemPostData = System.Text.Encoding.ASCII.GetBytes(itemPostBody);
 
                 HttpWebRequest itemRequest =
