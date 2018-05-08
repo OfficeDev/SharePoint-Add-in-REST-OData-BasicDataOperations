@@ -82,7 +82,6 @@ The sample demonstrates the following:
 
 We'd love to get your feedback on this sample. You can send your questions and suggestions to us in the [Issues](https://github.com/OfficeDev/SharePoint-Add-in-REST-OData-BasicDataOperations/issues) section of this repository.
   
-<a name="resources"/>
 ## Additional resources
 
 [Get to know the SharePoint 2013 REST service](https://msdn.microsoft.com/library/fp142380.aspx).
