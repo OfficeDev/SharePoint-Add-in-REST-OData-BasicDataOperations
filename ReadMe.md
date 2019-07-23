@@ -1,3 +1,17 @@
+--- 
+page_type: sample 
+products: 
+- office-sp
+- office-365 
+languages: 
+- csharp
+extensions: 
+  contentType: samples 
+  technologies: 
+  - Add-ins 
+  createdDate: 8/8/2015 11:33:40 AM 
+---
+
 # Basic CRUD operations in SharePoint Add-ins using the REST/OData APIs #
 
 ## Summary
