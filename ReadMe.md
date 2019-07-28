@@ -5,23 +5,24 @@ products:
 - office-365 
 languages: 
 - csharp
+urlFragment: crud-operations-sharepoint
+description: "Use the SharePoint REST/OData endpoints to perform operations on lists and list items from a SharePoint Add-in."
 extensions: 
   contentType: samples 
   technologies: 
   - Add-ins 
-  createdDate: 8/8/2015 11:33:40 AM 
+  createdDate: "8/8/2015 11:33:40 AM"
 ---
 
-# Basic CRUD operations in SharePoint Add-ins using the REST/OData APIs #
+# Basic CRUD operations in SharePoint Add-ins using the REST/OData APIs
 
 ## Summary
 Use the SharePoint REST/OData endpoints to perform create, read, update, and delete operations on lists and list items from a SharePoint Add-in.
 
-### Applies to ###
+### Applies to
 -  SharePoint Online and on-premise SharePoint 2013 and later 
 
-----------
-## Prerequisites ##
+## Prerequisites
 This sample requires the following:
 
 
@@ -106,7 +107,7 @@ We'd love to get your feedback on this sample. You can send your questions and s
 
 [OData: AtomPub Format](http://www.odata.org/developers/protocols/atom-format).
 
-### Copyright ###
+### Copyright
 
 Copyright (c) Microsoft. All rights reserved.
 
