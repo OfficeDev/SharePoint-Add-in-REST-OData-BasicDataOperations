@@ -16,6 +16,8 @@ extensions:
 
 # Basic CRUD operations in SharePoint Add-ins using the REST/OData APIs
 
+> SharePoint add-in model is considered as a legacy option for extending SharePoint user interface. Please see [SharePoint Framework documentation](https://aka.ms/spfx) and the [SharePoint Framework samples](https://aka.ms/spfx-webparts) for the future proven option to extend SharePoint Online. Possible backend services should be using Azure Active Directly based registration and related app models.
+
 ## Summary
 Use the SharePoint REST/OData endpoints to perform create, read, update, and delete operations on lists and list items from a SharePoint Add-in.
 
